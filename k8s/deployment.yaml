@@ -76,7 +76,7 @@ kind: Service
 metadata:
   name: fakeshop
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
     - port: 5000
       nodePort: 30000
