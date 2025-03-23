@@ -20,7 +20,7 @@ jobs:
       - name: Contrucao e Envio da Imagem Docker
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./src
           push: true
           file: ./src/Dockerfile
           tags: wesscode/fake-shop-desafio-devopspro:v2
