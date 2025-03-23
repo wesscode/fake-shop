@@ -80,6 +80,5 @@ spec:
   ports:
     - port: 80 #recebo na 80
       targetPort: 5000 #encaminho para 5000
-      nodePort: 30000
   selector:
     app: fakeshop
